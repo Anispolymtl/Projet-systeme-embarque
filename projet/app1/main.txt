@@ -1,0 +1,133 @@
+#include "Led/Led.h"
+#include "MakerLine/MakerLine.h"
+
+enum class Robot1 {
+   INIT,
+   MOUVEMENT,
+   FIND_OPENING,
+   WAIT,
+   BIP,
+   RECEPTION_IR,
+   READY_TO_SEND,
+};
+
+// Va nous permettre de faire 4 affichages (Selon les 4 schéma qu'on a fait)
+enum class Opening {
+   OPENING_1,
+   OPENING_2,
+   OPENING_3,
+   OPENING_4,
+};
+
+// Où il pointe
+static uint8_t ROBOT1_POSITION_LINE;
+
+// Où il est en profondeur
+static uint8_t ROBOT1_POSITION_TOWARDS;
+
+bool hasGoneForward;
+
+int main() {
+   switch(Robot1) {
+      case State::INIT:
+
+         uint8_t ROBOT1_POSITION = mesureVoltage();
+
+         break;
+
+      case State::MOUVEMENT:
+         if(mesureVoltage() < 70) // OPENING 2 OU 4
+         {
+            goBackward();
+         } else if(mesureVoltage() > 110) // OPENING 1 OU 3
+         {
+            goForward();
+         } else if(mesureVoltage() == range(85, 95)) {
+            stop();
+         }
+         break;
+
+      case State::FIND_OPENING:
+         turnRight(); // S'assurer que le robot ne va pas à une grande vitesse
+
+         startTimer();
+         static const uint8_t BIG_360 = timer.setDuration(3000);
+         static const uint8_t SMALL_360 = timer.setDuration(2000);
+         timer.setMode(CTC);
+
+         while(1) {
+            if(mesureVoltage() > range(25, 30)) {
+               stop();
+               timer.stopTimer();
+
+               const int timerValue = TCNT1;
+
+               if((timerValue > BIG_360) && isGoingForward()) {
+                  Opening::OPENING_1 = ROBOT1_POSITION_TOWARDS;
+               }
+
+               else if((timerValue < SMALL_360) && !isGoingForward()) {
+                  Opening::OPENING_2 = ROBOT1_POSITION_TOWARDS;
+               };
+
+                   else if((timerValue < SMALL_360) && isGoingForward()) {
+                  Opening::OPENING_3 = ROBOT1_POSITION_TOWARDS;
+               };
+
+                   else {
+                  Opening::OPENING_4 == ROBOT1_POSITION_TOWARDS;
+               };
+            }
+         }
+
+         break;
+
+      case State::WAIT:
+         setLedRed();
+         if(isButtonD2Pressed()) {
+            playNote(80);
+            _delay_ms(50);
+            stopSound();
+            _delay_ms(50);
+            playNote(75);
+            _delay_ms(50);
+            stopSound();
+            _delay_ms(50);
+            playNote(70);
+            _delay_ms(50) stopSound();
+         }
+         Robot1 = State::RECEPTION_IR;
+
+      case State::RECEPTION_IR:
+         setLedOff();
+
+         // startListeningInfraRed();
+
+         if(/*AucuneErreurDetecté*/) {
+            Robot1 = State::READY_TO_SEND:
+
+         } else {
+            stopListeningIfnfraRed();
+            playNote(20);
+            _delay_ms(1000);
+            stopSound();
+            Robot1 = State::WAIT:
+         }
+
+      case State::READY_TO_SEND:
+         setLedGreen();
+         if(!isButtonD2Pressed()) {
+            Robot1 = State::SEND:
+         }
+
+      case State::SEND:
+
+         do {
+            greenBlink(); /*f = 5Hz */
+         } while {        /*RS-232 transmit()*/
+         }
+
+         // Lorsque transmission terminé
+         Robot1 = State::READY_TO_SEND:
+   }
+}

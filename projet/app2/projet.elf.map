@@ -1,0 +1,1263 @@
+Archive member included to satisfy reference by file (symbol)
+
+../lib/libstatique.a(Button.o)
+                              Robot2.o (Button::Button(InteruptButton))
+../lib/libstatique.a(CommunicationRS232.o)
+                              Robot2.o (CommunicationRS232::CommunicationRS232())
+../lib/libstatique.a(IrTransmitter.o)
+                              Robot2.o (IrTransmitter::IrTransmitter())
+../lib/libstatique.a(Led.o)   Robot2.o (Led::Led(unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char))
+../lib/libstatique.a(Navigation.o)
+                              Robot2.o (Navigation::Navigation())
+../lib/libstatique.a(Piezo.o)
+                              Robot2.o (Piezo::Piezo())
+../lib/libstatique.a(Segment.o)
+                              Robot2.o (Segment::Segment(SegmentLength, unsigned int, unsigned char))
+../lib/libstatique.a(Timer1.o)
+                              Robot2.o (Timer1::Timer1(unsigned int, TimerMode))
+../lib/libstatique.a(Wheels.o)
+                              ../lib/libstatique.a(Navigation.o) (Wheels::setPwmPercentage(unsigned char))
+../lib/libstatique.a(CharcterDisplay.o)
+                              Robot2.o (CharacterDisplay::CharacterDisplay())
+../lib/libstatique.a(DisplayManager.o)
+                              Robot2.o (DisplayManager::DisplayManager(CharacterDisplay&, GlobalDisplay&))
+../lib/libstatique.a(GlobalDisplay.o)
+                              Robot2.o (GlobalDisplay::GlobalDisplay())
+../lib/libstatique.a(MakerLine.o)
+                              ../lib/libstatique.a(Navigation.o) (MakerLine::readLeftOuter())
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+                              ../lib/libstatique.a(Segment.o) (__udivmodhi4)
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+                              ../lib/libstatique.a(Wheels.o) (__divmodhi4)
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+                              ../lib/libstatique.a(Timer1.o) (__divmodsi4)
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+                              /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o) (__negsi2)
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+                              /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o (exit)
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+                              Robot2.o (__tablejump2__)
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+                              ../lib/libstatique.a(Piezo.o) (__do_copy_data)
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+                              main.o (__do_global_ctors)
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+                              main.o (__do_global_dtors)
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+                              ../lib/libstatique.a(Timer1.o) (__muluhisi3)
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+                              /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o) (__udivmodsi4)
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+                              /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o) (__umulhisi3)
+/opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/libc.a(memcpy.o)
+                              Robot2.o (memcpy)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw!x
+eeprom           0x00810000         0x00010000         rw!x
+fuse             0x00820000         0x00000400         rw!x
+lock             0x00830000         0x00000400         rw!x
+signature        0x00840000         0x00000400         rw!x
+user_signatures  0x00850000         0x00000400         rw!x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+LOAD main.o
+LOAD Robot2.o
+LOAD /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/libm.a
+LOAD ../lib/libstatique.a
+START GROUP
+LOAD /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a
+LOAD /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/libm.a
+LOAD /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/libc.a
+LOAD /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/libatmega324pa.a
+END GROUP
+                0x00020000                        __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x00800060                        __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                0x0000ffa0                        __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x00010000                        __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                0x00000400                        __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                        __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                        __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                        __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x2ca4
+ *(.vectors)
+ .vectors       0x00000000       0x7c /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000007c                        . = ALIGN (0x2)
+                0x0000007c                        __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000007c        0x0 linker stubs
+ *(.trampolines*)
+                0x0000007c                        __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+                0x0000007c                        . = ALIGN (0x2)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000007c                        __ctors_start = .
+ *(.ctors)
+ .ctors         0x0000007c        0x2 main.o
+                0x0000007e                        __ctors_end = .
+                0x0000007e                        __dtors_start = .
+ *(.dtors)
+ .dtors         0x0000007e        0x2 main.o
+                0x00000080                        __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x00000080        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+                0x00000080                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000080        0xc /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000008c       0x16 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+                0x0000008c                __do_copy_data
+ .init4         0x000000a2       0x10 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+                0x000000a2                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x000000b2       0x16 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+                0x000000b2                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000c8        0x8 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ *(.init9)
+ *(.text)
+ .text          0x000000d0        0x4 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+                0x000000d0                __vector_20
+                0x000000d0                __vector_28
+                0x000000d0                __vector_1
+                0x000000d0                __vector_24
+                0x000000d0                __vector_12
+                0x000000d0                __bad_interrupt
+                0x000000d0                __vector_6
+                0x000000d0                __vector_3
+                0x000000d0                __vector_23
+                0x000000d0                __vector_30
+                0x000000d0                __vector_25
+                0x000000d0                __vector_11
+                0x000000d0                __vector_17
+                0x000000d0                __vector_19
+                0x000000d0                __vector_7
+                0x000000d0                __vector_27
+                0x000000d0                __vector_5
+                0x000000d0                __vector_4
+                0x000000d0                __vector_9
+                0x000000d0                __vector_2
+                0x000000d0                __vector_21
+                0x000000d0                __vector_15
+                0x000000d0                __vector_29
+                0x000000d0                __vector_8
+                0x000000d0                __vector_26
+                0x000000d0                __vector_14
+                0x000000d0                __vector_10
+                0x000000d0                __vector_16
+                0x000000d0                __vector_18
+                0x000000d0                __vector_22
+ .text          0x000000d4       0x4c main.o
+                0x000000d4                __vector_13
+ .text          0x00000120      0x93a Robot2.o
+                0x00000120                Robot2::Robot2()
+                0x00000120                Robot2::Robot2()
+                0x000001e8                Robot2::changeState()
+                0x0000024e                Robot2::executeDAState()
+                0x000002a4                Robot2::measureSegment()
+                0x00000402                Robot2::executeABState()
+                0x000004ea                Robot2::executeBFState()
+                0x0000051a                Robot2::executeFEState()
+                0x00000626                Robot2::executeEDState()
+                0x000006c6                Robot2::executeDCState()
+                0x000006c8                Robot2::executeWaitState()
+                0x000006ce                Robot2::executeBeepState()
+                0x0000071c                Robot2::executeIRState()
+                0x000008ac                Robot2::executeRS232State()
+                0x000009f2                Robot2::executeState()
+                0x00000a30                Robot2::start()
+                0x00000a46                Robot2::incrementBlinkCount()
+ .text          0x00000a5a       0x86 ../lib/libstatique.a(Button.o)
+                0x00000a5a                Button::Button(InteruptButton)
+                0x00000a5a                Button::Button(InteruptButton)
+                0x00000a66                Button::initialize()
+                0x00000aa0                Button::isD2Pressed()
+                0x00000abe                Button::isA2Pressed()
+ .text          0x00000ae0       0xae ../lib/libstatique.a(CommunicationRS232.o)
+                0x00000ae0                CommunicationRS232::enableTransmit()
+                0x00000af2                CommunicationRS232::CommunicationRS232()
+                0x00000af2                CommunicationRS232::CommunicationRS232()
+                0x00000b0e                CommunicationRS232::enableReceive()
+                0x00000b20                CommunicationRS232::receive()
+                0x00000b2e                CommunicationRS232::transmit(unsigned char)
+                0x00000b3c                CommunicationRS232::transmit(unsigned char const*)
+                0x00000b66                CommunicationRS232::transmitText(char const*)
+ .text          0x00000b8e      0x246 ../lib/libstatique.a(IrTransmitter.o)
+                0x00000b8e                IrTransmitter::IrTransmitter()
+                0x00000b8e                IrTransmitter::IrTransmitter()
+                0x00000b98                IrTransmitter::configureTimer()
+                0x00000bde                IrTransmitter::startTimer()
+                0x00000bf0                IrTransmitter::stopTimer()
+                0x00000bfe                IrTransmitter::sendStartPulse()
+                0x00000c30                IrTransmitter::sendLogicalZero()
+                0x00000c62                IrTransmitter::sendLogicalOne()
+                0x00000c94                IrTransmitter::transmitByte(unsigned char)
+                0x00000cec                IrTransmitter::transmit(unsigned char)
+                0x00000d14                IrTransmitter::transmit(TransmissionPacket const&)
+ .text          0x00000dd4      0x132 ../lib/libstatique.a(Led.o)
+                0x00000dd4                Led::Led(unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char)
+                0x00000dd4                Led::Led(unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char)
+                0x00000e1a                Led::setRed()
+                0x00000e52                Led::setGreen()
+                0x00000e8e                Led::setAmbre()
+                0x00000ec0                Led::setOff()
+                0x00000efe                Led::getLedState()
+ .text          0x00000f06      0x56e ../lib/libstatique.a(Navigation.o)
+                0x00000f06                Navigation::Navigation()
+                0x00000f06                Navigation::Navigation()
+                0x00000f0a                Navigation::goForward()
+                0x00000f2a                Navigation::goBackward()
+                0x00000f4a                Navigation::turnLeftRobot1()
+                0x00000f7a                Navigation::turnRightRobot1()
+                0x00000faa                Navigation::turnRightRobot2()
+                0x00000fda                Navigation::stop()
+                0x00000fe0                Navigation::~Navigation()
+                0x00000fe0                Navigation::~Navigation()
+                0x00000fe4                Navigation::turnLeft90()
+                0x0000100e                Navigation::turnRight90()
+                0x00001038                Navigation::setLeftSpeed(unsigned char)
+                0x00001046                Navigation::setRightSpeed(unsigned char)
+                0x00001054                Navigation::setSpeed(unsigned char)
+                0x00001078                Navigation::setSpeed2(bool, unsigned char, unsigned char)
+                0x000010a8                Navigation::adjustToRight()
+                0x000010b2                Navigation::adjustToOuterRight()
+                0x000010bc                Navigation::adjustToLeft()
+                0x000010c6                Navigation::adjustToOuterLeft()
+                0x000010d0                Navigation::followLine()
+                0x0000118a                Navigation::adjustAfterTurn()
+                0x000011f2                Navigation::impulsion(unsigned int)
+                0x00001238                Navigation::turnLeftRobot2()
+                0x00001274                Navigation::stopToAdjust(unsigned int)
+                0x0000129e                Navigation::forwardToTurn()
+                0x000012f4                Navigation::backwardToTurn()
+                0x0000134a                Navigation::turnLeftJunction()
+                0x00001392                Navigation::turnRightJunction()
+                0x000013dc                Navigation::shouldTurnLeft()
+                0x000013f2                Navigation::shouldTurnRight()
+                0x00001408                Navigation::isReadingLine()
+                0x00001412                Navigation::isReadingLeftInner()
+                0x00001428                Navigation::isReadingLeftOuter()
+                0x0000143e                Navigation::isReadingRightInner()
+                0x00001454                Navigation::isReadingCenter()
+                0x0000146a                Navigation::isStraight()
+ .text          0x00001474       0x6e ../lib/libstatique.a(Piezo.o)
+                0x00001474                Piezo::Piezo()
+                0x00001474                Piezo::Piezo()
+                0x000014a8                Piezo::playNote(unsigned char)
+                0x000014d2                Piezo::stopSound()
+ .text          0x000014e2      0x106 ../lib/libstatique.a(Segment.o)
+                0x00001512                Segment::Segment(SegmentLength, unsigned int, unsigned char)
+                0x00001512                Segment::Segment(SegmentLength, unsigned int, unsigned char)
+                0x00001520                Segment::computePosition(unsigned int, Segment*, unsigned char)
+                0x0000156a                TransmissionPacket::computeCrc() const
+                0x000015d6                Segment::verticalSegmentToCharacters(SegmentLength)
+ .text          0x000015e8      0x1f6 ../lib/libstatique.a(Timer1.o)
+                0x000015e8                Timer1::Timer1(unsigned int, TimerMode)
+                0x000015e8                Timer1::Timer1(unsigned int, TimerMode)
+                0x0000162c                Timer1::setMode(TimerMode)
+                0x00001670                Timer1::setDuration(unsigned int)
+                0x000017ac                Timer1::startTimer()
+                0x000017ce                Timer1::stopTimer()
+ .text          0x000017de       0xf4 ../lib/libstatique.a(Wheels.o)
+                0x000017de                Wheels::getNumberOfCyclesFromPercentage(unsigned char)
+                0x000017fe                Wheels::setPwmPercentage(unsigned char)
+                0x00001820                Wheels::setPwmPercentageLeft(unsigned char)
+                0x00001840                Wheels::setPwmPercentageRight(unsigned char)
+                0x00001860                Wheels::setDirectionLeft(bool)
+                0x0000186c                Wheels::setDirectionRight(bool)
+                0x00001878                Wheels::setDirection(bool)
+                0x00001898                Wheels::Wheels()
+                0x00001898                Wheels::Wheels()
+ .text          0x000018d2      0x150 ../lib/libstatique.a(CharcterDisplay.o)
+                0x000018d2                CharacterDisplay::CharacterDisplay()
+                0x000018d2                CharacterDisplay::CharacterDisplay()
+                0x000018d4                CharacterDisplay::drawThreePathCharacter(CommunicationRS232&)
+                0x000018de                CharacterDisplay::drawThreePathCharacterBeginningLeft(CommunicationRS232&)
+                0x000018e8                CharacterDisplay::drawThreePathCharacterUp(CommunicationRS232&)
+                0x000018f2                CharacterDisplay::drawLeftBoldBorderCharacter(CommunicationRS232&)
+                0x000018fc                CharacterDisplay::drawRightBoldBorderCharacter(CommunicationRS232&)
+                0x00001906                CharacterDisplay::drawLeftBorderCharacter(CommunicationRS232&)
+                0x00001910                CharacterDisplay::drawRightBorderCharacter(CommunicationRS232&)
+                0x0000191a                CharacterDisplay::drawHorizontalCharacter(CommunicationRS232&, unsigned char)
+                0x00001948                CharacterDisplay::drawBoldCharacter(CommunicationRS232&, unsigned char)
+                0x00001976                CharacterDisplay::drawVerticalBoldCharacter(CommunicationRS232&)
+                0x00001980                CharacterDisplay::drawVerticalCharacter(CommunicationRS232&)
+                0x0000198a                CharacterDisplay::drawBorderRightEqualCharacter(CommunicationRS232&)
+                0x00001994                CharacterDisplay::drawTheEqualCharacter(CommunicationRS232&, unsigned char)
+                0x000019c2                CharacterDisplay::drawTheWeirdRobotCharacter(CommunicationRS232&)
+                0x000019cc                CharacterDisplay::drawVerticalEqualCharacter(CommunicationRS232&)
+                0x000019d6                CharacterDisplay::drawSlash(CommunicationRS232&)
+                0x000019e0                CharacterDisplay::drawBackSlash(CommunicationRS232&)
+                0x000019ea                CharacterDisplay::drawEmptyLine(CommunicationRS232&)
+                0x000019f4                CharacterDisplay::drawEmptySpace(CommunicationRS232&, unsigned char)
+ .text          0x00001a22      0xbd4 ../lib/libstatique.a(DisplayManager.o)
+                0x00001a22                DisplayManager::DisplayManager(CharacterDisplay&, GlobalDisplay&)
+                0x00001a22                DisplayManager::DisplayManager(CharacterDisplay&, GlobalDisplay&)
+                0x00001a24                DisplayManager::displayFirstLineCircuitOfRobot2(CommunicationRS232&, Segment*, unsigned char)
+                0x00001ad8                DisplayManager::displayTopCircuitOfRobot2(CommunicationRS232&, unsigned char)
+                0x00001b68                DisplayManager::displayMiddleBoxIfRobotInBottom(CommunicationRS232&)
+                0x00001b8e                DisplayManager::initialiseBottomVerticalProgress(CommunicationRS232&, Segment*, unsigned char)
+                0x00001bfc                DisplayManager::displayBottomCircuitOfRobot2(CommunicationRS232&, Segment*, unsigned char)
+                0x00001cee                DisplayManager::iterateDisplayBottom(CommunicationRS232&, Segment*, unsigned char)
+                0x00001d50                DisplayManager::iterateDisplayTop(CommunicationRS232&, unsigned char)
+                0x00001e2e                DisplayManager::displayLastLineOfCircuit(CommunicationRS232&, Segment*, unsigned char)
+                0x00001ee0                DisplayManager::updateDisplayOfRobotIfTopUp(CommunicationRS232&, unsigned char, Segment*)
+                0x000020d0                DisplayManager::updateDisplayOfRobotIfBottomUp(CommunicationRS232&, unsigned char, Segment*)
+                0x00002254                DisplayManager::updateDisplayOfRobotIfBottomDown(CommunicationRS232&, unsigned char, Segment*)
+                0x000023d8                DisplayManager::updateDisplayOfRobotIfTopDown(CommunicationRS232&, unsigned char, Segment*)
+                0x000025a6                DisplayManager::isPositionGreaterThanMaxPositionForTop(CommunicationRS232&, Segment*, unsigned char)
+                0x000025c6                DisplayManager::isPositionGreaterThanMaxPositionForBottom(CommunicationRS232&, Segment*, unsigned char)
+ .text          0x000025f6      0x4a0 ../lib/libstatique.a(GlobalDisplay.o)
+                0x000025f6                GlobalDisplay::GlobalDisplay()
+                0x000025f6                GlobalDisplay::GlobalDisplay()
+                0x000025fa                GlobalDisplay::drawCharactersToBox(CommunicationRS232&, unsigned char)
+                0x00002648                GlobalDisplay::drawEmptyCharactersInsideBox(CommunicationRS232&)
+                0x0000266e                GlobalDisplay::startDrawingBox(CommunicationRS232&)
+                0x000026ca                GlobalDisplay::drawEmptyLinesInBoxToRobotDown(CommunicationRS232&)
+                0x000026fc                GlobalDisplay::drawMiddleBox(CommunicationRS232&)
+                0x000027c0                GlobalDisplay::drawCharactersFromRobotToCircuit(CommunicationRS232&, unsigned char, unsigned char)
+                0x000027f0                GlobalDisplay::writeNameOfRobot(CommunicationRS232&)
+                0x000027fa                GlobalDisplay::drawFinalLines(CommunicationRS232&)
+                0x00002928                GlobalDisplay::drawSlashesOfRobot(CommunicationRS232&, unsigned char)
+                0x0000295e                GlobalDisplay::drawSlashesOfBottomOrientedRobot(CommunicationRS232&, unsigned char)
+                0x00002994                GlobalDisplay::drawVerticalCharacterOfRobot(CommunicationRS232&, unsigned char)
+                0x000029ca                GlobalDisplay::start(CommunicationRS232&)
+                0x00002a5c                GlobalDisplay::drawInFirstAndLastColumn(CommunicationRS232&, unsigned char)
+                0x00002a60                GlobalDisplay::drawWheelsOfRobot(CommunicationRS232&, unsigned char)
+ .text          0x00002a96       0x8a ../lib/libstatique.a(MakerLine.o)
+                0x00002a96                MakerLine::MakerLine()
+                0x00002a96                MakerLine::MakerLine()
+                0x00002a9e                MakerLine::readLeftOuter()
+                0x00002aa4                MakerLine::readLeftInner()
+                0x00002aaa                MakerLine::readCenter()
+                0x00002ab0                MakerLine::readRightInner()
+                0x00002ab6                MakerLine::readRightOuter()
+                0x00002abc                MakerLine::readRightTurn()
+                0x00002ad2                MakerLine::readLeftTurn()
+                0x00002ae6                MakerLine::isMiddleReading()
+                0x00002af0                MakerLine::isReadingLine()
+                0x00002b0c                MakerLine::isStraight()
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+ .text          0x00002b20        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/libc.a(memcpy.o)
+                0x00002b20                        . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x00002b20       0x16 main.o
+                0x00002b20                main
+ .text.exit     0x00002b36        0x8 main.o
+ .text.libgcc.mul
+                0x00002b3e        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x00002b3e       0x28 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x00002b3e                __udivmodhi4
+ .text.libgcc   0x00002b66        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00002b66        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00002b66        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00002b66        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00002b66        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00002b66        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x00002b66       0x28 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+                0x00002b66                __divmodhi4
+                0x00002b66                _div
+ .text.libgcc   0x00002b8e        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x00002b8e        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x00002b8e        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x00002b8e        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x00002b8e        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x00002b8e        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x00002b8e       0x2e /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+                0x00002b8e                __divmodsi4
+ .text.libgcc   0x00002bbc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x00002bbc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x00002bbc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x00002bbc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x00002bbc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x00002bbc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.div
+                0x00002bbc       0x10 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+                0x00002bbc                __negsi2
+ .text.libgcc   0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00002bcc        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc   0x00002bcc        0xc /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+                0x00002bcc                __tablejump2__
+ .text.libgcc.prologue
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc   0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.div
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc   0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.prologue
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.builtins
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.fmul
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.fixed
+                0x00002bd8        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .text.libgcc.mul
+                0x00002bd8       0x16 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+                0x00002bd8                __muluhisi3
+ .text.libgcc.div
+                0x00002bee        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00002bee        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x00002bee        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x00002bee        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x00002bee        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x00002bee        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.mul
+                0x00002bee        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x00002bee       0x44 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x00002bee                __udivmodsi4
+ .text.libgcc   0x00002c32        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00002c32        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00002c32        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00002c32        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00002c32        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00002c32       0x1e /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+                0x00002c32                __umulhisi3
+ .text.libgcc.div
+                0x00002c50        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00002c50        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00002c50        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00002c50        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00002c50        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00002c50        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.avr-libc
+                0x00002c50       0x12 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/libc.a(memcpy.o)
+                0x00002c50                memcpy
+                0x00002c62                        . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00002c62        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+                0x00002c62                exit
+                0x00002c62                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ .fini6         0x00002c62       0x16 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+                0x00002c62                __do_global_dtors
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00002c78        0x4 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x00002c7c                        . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ .jumptables.gcc._ZN6Robot211changeStateEv
+                0x00002c7c       0x14 Robot2.o
+ .jumptables.gcc._ZN6Robot212executeStateEv
+                0x00002c90       0x14 Robot2.o
+                0x00002ca4                        _etext = .
+
+.data           0x00800100       0x9c load address 0x00002ca4
+                0x00800100                        PROVIDE (__data_start = .)
+ *(.data)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ .data          0x00800100        0x0 main.o
+ .data          0x00800100        0x0 Robot2.o
+ .data          0x00800100        0x0 ../lib/libstatique.a(Button.o)
+ .data          0x00800100        0x0 ../lib/libstatique.a(CommunicationRS232.o)
+ .data          0x00800100        0x0 ../lib/libstatique.a(IrTransmitter.o)
+ .data          0x00800100        0x0 ../lib/libstatique.a(Led.o)
+ .data          0x00800100        0x0 ../lib/libstatique.a(Navigation.o)
+ .data          0x00800100        0x0 ../lib/libstatique.a(Piezo.o)
+ .data          0x00800100        0x0 ../lib/libstatique.a(Segment.o)
+ .data          0x00800100        0x0 ../lib/libstatique.a(Timer1.o)
+ .data          0x00800100        0x0 ../lib/libstatique.a(Wheels.o)
+ .data          0x00800100        0x0 ../lib/libstatique.a(CharcterDisplay.o)
+ .data          0x00800100        0x0 ../lib/libstatique.a(DisplayManager.o)
+ .data          0x00800100        0x0 ../lib/libstatique.a(GlobalDisplay.o)
+ .data          0x00800100        0x0 ../lib/libstatique.a(MakerLine.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/libc.a(memcpy.o)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x00800100       0x25 ../lib/libstatique.a(Piezo.o)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800125       0x48 ../lib/libstatique.a(CharcterDisplay.o)
+ .rodata.str1.1
+                0x0080016d        0xc ../lib/libstatique.a(DisplayManager.o)
+                                 0x10 (size before relaxing)
+ .rodata.str1.1
+                0x00800179       0x23 ../lib/libstatique.a(GlobalDisplay.o)
+ *(.gnu.linkonce.r*)
+                0x0080019c                        . = ALIGN (0x2)
+                0x0080019c                        _edata = .
+                0x0080019c                        PROVIDE (__data_end = .)
+
+.bss            0x0080019c       0x55
+                0x0080019c                        PROVIDE (__bss_start = .)
+ *(.bss)
+ .bss           0x0080019c        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ .bss           0x0080019c       0x55 main.o
+                0x0080019c                gRobot
+ .bss           0x008001f1        0x0 Robot2.o
+ .bss           0x008001f1        0x0 ../lib/libstatique.a(Button.o)
+ .bss           0x008001f1        0x0 ../lib/libstatique.a(CommunicationRS232.o)
+ .bss           0x008001f1        0x0 ../lib/libstatique.a(IrTransmitter.o)
+ .bss           0x008001f1        0x0 ../lib/libstatique.a(Led.o)
+ .bss           0x008001f1        0x0 ../lib/libstatique.a(Navigation.o)
+ .bss           0x008001f1        0x0 ../lib/libstatique.a(Piezo.o)
+ .bss           0x008001f1        0x0 ../lib/libstatique.a(Segment.o)
+ .bss           0x008001f1        0x0 ../lib/libstatique.a(Timer1.o)
+ .bss           0x008001f1        0x0 ../lib/libstatique.a(Wheels.o)
+ .bss           0x008001f1        0x0 ../lib/libstatique.a(CharcterDisplay.o)
+ .bss           0x008001f1        0x0 ../lib/libstatique.a(DisplayManager.o)
+ .bss           0x008001f1        0x0 ../lib/libstatique.a(GlobalDisplay.o)
+ .bss           0x008001f1        0x0 ../lib/libstatique.a(MakerLine.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+ .bss           0x008001f1        0x0 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/libc.a(memcpy.o)
+ *(.bss*)
+ *(COMMON)
+                0x008001f1                        PROVIDE (__bss_end = .)
+                0x00002ca4                        __data_load_start = LOADADDR (.data)
+                0x00002d40                        __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008001f1        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x008001f1                        _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                        __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x28
+ *(.comment)
+ .comment       0x00000000       0x28 main.o
+                                 0x29 (size before relaxing)
+ .comment       0x00000028       0x29 Robot2.o
+ .comment       0x00000028       0x29 ../lib/libstatique.a(Button.o)
+ .comment       0x00000028       0x29 ../lib/libstatique.a(CommunicationRS232.o)
+ .comment       0x00000028       0x29 ../lib/libstatique.a(IrTransmitter.o)
+ .comment       0x00000028       0x29 ../lib/libstatique.a(Led.o)
+ .comment       0x00000028       0x29 ../lib/libstatique.a(Navigation.o)
+ .comment       0x00000028       0x29 ../lib/libstatique.a(Piezo.o)
+ .comment       0x00000028       0x29 ../lib/libstatique.a(Segment.o)
+ .comment       0x00000028       0x29 ../lib/libstatique.a(Timer1.o)
+ .comment       0x00000028       0x29 ../lib/libstatique.a(Wheels.o)
+ .comment       0x00000028       0x29 ../lib/libstatique.a(CharcterDisplay.o)
+ .comment       0x00000028       0x29 ../lib/libstatique.a(DisplayManager.o)
+ .comment       0x00000028       0x29 ../lib/libstatique.a(GlobalDisplay.o)
+ .comment       0x00000028       0x29 ../lib/libstatique.a(MakerLine.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x398
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 main.o
+ .debug_aranges
+                0x00000038       0x20 Robot2.o
+ .debug_aranges
+                0x00000058       0x20 ../lib/libstatique.a(Button.o)
+ .debug_aranges
+                0x00000078       0x20 ../lib/libstatique.a(CommunicationRS232.o)
+ .debug_aranges
+                0x00000098       0x20 ../lib/libstatique.a(IrTransmitter.o)
+ .debug_aranges
+                0x000000b8       0x20 ../lib/libstatique.a(Led.o)
+ .debug_aranges
+                0x000000d8       0x20 ../lib/libstatique.a(Navigation.o)
+ .debug_aranges
+                0x000000f8       0x20 ../lib/libstatique.a(Piezo.o)
+ .debug_aranges
+                0x00000118       0x20 ../lib/libstatique.a(Segment.o)
+ .debug_aranges
+                0x00000138       0x20 ../lib/libstatique.a(Timer1.o)
+ .debug_aranges
+                0x00000158       0x20 ../lib/libstatique.a(Wheels.o)
+ .debug_aranges
+                0x00000178       0x20 ../lib/libstatique.a(CharcterDisplay.o)
+ .debug_aranges
+                0x00000198       0x20 ../lib/libstatique.a(DisplayManager.o)
+ .debug_aranges
+                0x000001b8       0x20 ../lib/libstatique.a(GlobalDisplay.o)
+ .debug_aranges
+                0x000001d8       0x20 ../lib/libstatique.a(MakerLine.o)
+ .debug_aranges
+                0x000001f8       0x20 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .debug_aranges
+                0x00000218       0x20 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .debug_aranges
+                0x00000238       0x20 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .debug_aranges
+                0x00000258       0x20 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .debug_aranges
+                0x00000278       0x20 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .debug_aranges
+                0x00000298       0x20 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .debug_aranges
+                0x000002b8       0x20 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x000002d8       0x20 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_aranges
+                0x000002f8       0x20 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .debug_aranges
+                0x00000318       0x20 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .debug_aranges
+                0x00000338       0x20 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .debug_aranges
+                0x00000358       0x20 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .debug_aranges
+                0x00000378       0x20 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xdee4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x6cc /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ .debug_info    0x000006cc     0x15dd main.o
+ .debug_info    0x00001ca9     0x324f Robot2.o
+ .debug_info    0x00004ef8      0x2b4 ../lib/libstatique.a(Button.o)
+ .debug_info    0x000051ac      0x36b ../lib/libstatique.a(CommunicationRS232.o)
+ .debug_info    0x00005517      0xa1b ../lib/libstatique.a(IrTransmitter.o)
+ .debug_info    0x00005f32      0x44c ../lib/libstatique.a(Led.o)
+ .debug_info    0x0000637e     0x1ae9 ../lib/libstatique.a(Navigation.o)
+ .debug_info    0x00007e67      0x1db ../lib/libstatique.a(Piezo.o)
+ .debug_info    0x00008042      0x434 ../lib/libstatique.a(Segment.o)
+ .debug_info    0x00008476      0x344 ../lib/libstatique.a(Timer1.o)
+ .debug_info    0x000087ba      0x55b ../lib/libstatique.a(Wheels.o)
+ .debug_info    0x00008d15      0xc44 ../lib/libstatique.a(CharcterDisplay.o)
+ .debug_info    0x00009959     0x27ee ../lib/libstatique.a(DisplayManager.o)
+ .debug_info    0x0000c147     0x157d ../lib/libstatique.a(GlobalDisplay.o)
+ .debug_info    0x0000d6c4      0x64c ../lib/libstatique.a(MakerLine.o)
+ .debug_info    0x0000dd10       0x24 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .debug_info    0x0000dd34       0x24 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .debug_info    0x0000dd58       0x24 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .debug_info    0x0000dd7c       0x24 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .debug_info    0x0000dda0       0x24 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .debug_info    0x0000ddc4       0x24 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .debug_info    0x0000dde8       0x24 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .debug_info    0x0000de0c       0x24 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_info    0x0000de30       0x24 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .debug_info    0x0000de54       0x24 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .debug_info    0x0000de78       0x24 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .debug_info    0x0000de9c       0x24 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .debug_info    0x0000dec0       0x24 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+
+.debug_abbrev   0x00000000     0x2c2e
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x66e /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ .debug_abbrev  0x0000066e      0x40b main.o
+ .debug_abbrev  0x00000a79      0x508 Robot2.o
+ .debug_abbrev  0x00000f81      0x1ef ../lib/libstatique.a(Button.o)
+ .debug_abbrev  0x00001170      0x199 ../lib/libstatique.a(CommunicationRS232.o)
+ .debug_abbrev  0x00001309      0x343 ../lib/libstatique.a(IrTransmitter.o)
+ .debug_abbrev  0x0000164c      0x23f ../lib/libstatique.a(Led.o)
+ .debug_abbrev  0x0000188b      0x2cb ../lib/libstatique.a(Navigation.o)
+ .debug_abbrev  0x00001b56      0x162 ../lib/libstatique.a(Piezo.o)
+ .debug_abbrev  0x00001cb8      0x299 ../lib/libstatique.a(Segment.o)
+ .debug_abbrev  0x00001f51      0x1a7 ../lib/libstatique.a(Timer1.o)
+ .debug_abbrev  0x000020f8      0x1e5 ../lib/libstatique.a(Wheels.o)
+ .debug_abbrev  0x000022dd      0x18b ../lib/libstatique.a(CharcterDisplay.o)
+ .debug_abbrev  0x00002468      0x32f ../lib/libstatique.a(DisplayManager.o)
+ .debug_abbrev  0x00002797      0x22b ../lib/libstatique.a(GlobalDisplay.o)
+ .debug_abbrev  0x000029c2      0x168 ../lib/libstatique.a(MakerLine.o)
+ .debug_abbrev  0x00002b2a       0x14 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .debug_abbrev  0x00002b3e       0x14 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .debug_abbrev  0x00002b52       0x14 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .debug_abbrev  0x00002b66       0x14 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .debug_abbrev  0x00002b7a       0x14 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .debug_abbrev  0x00002b8e       0x14 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .debug_abbrev  0x00002ba2       0x14 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .debug_abbrev  0x00002bb6       0x14 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x00002bca       0x14 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .debug_abbrev  0x00002bde       0x14 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .debug_abbrev  0x00002bf2       0x14 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .debug_abbrev  0x00002c06       0x14 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .debug_abbrev  0x00002c1a       0x14 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+
+.debug_line     0x00000000     0x7197
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1d /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ .debug_line    0x0000001d      0x14d main.o
+ .debug_line    0x0000016a     0x1496 Robot2.o
+ .debug_line    0x00001600      0x287 ../lib/libstatique.a(Button.o)
+ .debug_line    0x00001887      0x2b5 ../lib/libstatique.a(CommunicationRS232.o)
+ .debug_line    0x00001b3c      0x748 ../lib/libstatique.a(IrTransmitter.o)
+ .debug_line    0x00002284      0x3a5 ../lib/libstatique.a(Led.o)
+ .debug_line    0x00002629     0x1092 ../lib/libstatique.a(Navigation.o)
+ .debug_line    0x000036bb      0x1a5 ../lib/libstatique.a(Piezo.o)
+ .debug_line    0x00003860      0x30c ../lib/libstatique.a(Segment.o)
+ .debug_line    0x00003b6c      0x39f ../lib/libstatique.a(Timer1.o)
+ .debug_line    0x00003f0b      0x385 ../lib/libstatique.a(Wheels.o)
+ .debug_line    0x00004290      0x512 ../lib/libstatique.a(CharcterDisplay.o)
+ .debug_line    0x000047a2     0x155d ../lib/libstatique.a(DisplayManager.o)
+ .debug_line    0x00005cff      0x97c ../lib/libstatique.a(GlobalDisplay.o)
+ .debug_line    0x0000667b      0x3b1 ../lib/libstatique.a(MakerLine.o)
+ .debug_line    0x00006a2c       0xbd /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .debug_line    0x00006ae9       0xb7 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .debug_line    0x00006ba0       0xbd /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .debug_line    0x00006c5d       0x51 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .debug_line    0x00006cae       0x51 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .debug_line    0x00006cff       0x69 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .debug_line    0x00006d68       0x87 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .debug_line    0x00006def       0x75 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_line    0x00006e64       0x81 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .debug_line    0x00006ee5       0x81 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .debug_line    0x00006f66       0x81 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .debug_line    0x00006fe7      0x111 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .debug_line    0x000070f8       0x9f /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+
+.debug_frame    0x00000000     0x12bc
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x9c main.o
+ .debug_frame   0x0000009c      0x278 Robot2.o
+ .debug_frame   0x00000314       0x54 ../lib/libstatique.a(Button.o)
+ .debug_frame   0x00000368       0xac ../lib/libstatique.a(CommunicationRS232.o)
+ .debug_frame   0x00000414      0x134 ../lib/libstatique.a(IrTransmitter.o)
+ .debug_frame   0x00000548       0x88 ../lib/libstatique.a(Led.o)
+ .debug_frame   0x000005d0      0x32c ../lib/libstatique.a(Navigation.o)
+ .debug_frame   0x000008fc       0x44 ../lib/libstatique.a(Piezo.o)
+ .debug_frame   0x00000940       0x9c ../lib/libstatique.a(Segment.o)
+ .debug_frame   0x000009dc       0x80 ../lib/libstatique.a(Timer1.o)
+ .debug_frame   0x00000a5c       0xa4 ../lib/libstatique.a(Wheels.o)
+ .debug_frame   0x00000b00      0x1a4 ../lib/libstatique.a(CharcterDisplay.o)
+ .debug_frame   0x00000ca4      0x340 ../lib/libstatique.a(DisplayManager.o)
+ .debug_frame   0x00000fe4      0x214 ../lib/libstatique.a(GlobalDisplay.o)
+ .debug_frame   0x000011f8       0xc4 ../lib/libstatique.a(MakerLine.o)
+
+.debug_str      0x00000000     0x3ddc
+ *(.debug_str)
+ .debug_str     0x00000000      0x255 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ .debug_str     0x00000255     0x1e0e main.o
+                               0x1ee8 (size before relaxing)
+ .debug_str     0x00002063     0x18f5 Robot2.o
+                               0x3739 (size before relaxing)
+ .debug_str     0x00003958       0x1e ../lib/libstatique.a(Button.o)
+                                0x2bd (size before relaxing)
+ .debug_str     0x00003976       0x33 ../lib/libstatique.a(CommunicationRS232.o)
+                                0x2ed (size before relaxing)
+ .debug_str     0x000039a9       0x52 ../lib/libstatique.a(IrTransmitter.o)
+                                0x65e (size before relaxing)
+ .debug_str     0x000039fb       0x13 ../lib/libstatique.a(Led.o)
+                                0x31d (size before relaxing)
+ .debug_str     0x00003a0e       0x6d ../lib/libstatique.a(Navigation.o)
+                               0x106e (size before relaxing)
+ .debug_str     0x00003a7b       0x1f ../lib/libstatique.a(Piezo.o)
+                                0x205 (size before relaxing)
+ .debug_str     0x00003a9a       0x6b ../lib/libstatique.a(Segment.o)
+                                0x372 (size before relaxing)
+ .debug_str     0x00003b05       0x19 ../lib/libstatique.a(Timer1.o)
+                                0x2cd (size before relaxing)
+ .debug_str     0x00003b1e       0x19 ../lib/libstatique.a(Wheels.o)
+                                0x333 (size before relaxing)
+ .debug_str     0x00003b37       0x1a ../lib/libstatique.a(CharcterDisplay.o)
+                                0xaba (size before relaxing)
+ .debug_str     0x00003b51       0xcf ../lib/libstatique.a(DisplayManager.o)
+                               0x1b8f (size before relaxing)
+ .debug_str     0x00003c20      0x125 ../lib/libstatique.a(GlobalDisplay.o)
+                               0x10c3 (size before relaxing)
+ .debug_str     0x00003d45       0x12 ../lib/libstatique.a(MakerLine.o)
+                                0x34d (size before relaxing)
+ .debug_str     0x00003d57       0x85 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .debug_str     0x00003ddc       0x85 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .debug_str     0x00003ddc       0x85 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .debug_str     0x00003ddc       0x85 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .debug_str     0x00003ddc       0x85 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .debug_str     0x00003ddc       0x85 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .debug_str     0x00003ddc       0x85 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .debug_str     0x00003ddc       0x85 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_str     0x00003ddc       0x85 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .debug_str     0x00003ddc       0x85 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .debug_str     0x00003ddc       0x85 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .debug_str     0x00003ddc       0x85 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .debug_str     0x00003ddc       0x85 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x538
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000      0x1c7 main.o
+                                0x21d (size before relaxing)
+ .debug_line_str
+                0x000001c7      0x127 Robot2.o
+                                0x33f (size before relaxing)
+ .debug_line_str
+                0x000002ee       0x55 ../lib/libstatique.a(Button.o)
+                                0x145 (size before relaxing)
+ .debug_line_str
+                0x00000343       0x2a ../lib/libstatique.a(CommunicationRS232.o)
+                                0x144 (size before relaxing)
+ .debug_line_str
+                0x0000036d       0x25 ../lib/libstatique.a(IrTransmitter.o)
+                                0x185 (size before relaxing)
+ .debug_line_str
+                0x00000392        0xc ../lib/libstatique.a(Led.o)
+                                0x133 (size before relaxing)
+ .debug_line_str
+                0x0000039e       0x1a ../lib/libstatique.a(Navigation.o)
+                                0x19f (size before relaxing)
+ .debug_line_str
+                0x000003b8       0x10 ../lib/libstatique.a(Piezo.o)
+                                 0xf6 (size before relaxing)
+ .debug_line_str
+                0x000003c8       0x1c ../lib/libstatique.a(Segment.o)
+                                0x144 (size before relaxing)
+ .debug_line_str
+                0x000003e4       0x12 ../lib/libstatique.a(Timer1.o)
+                                 0xfc (size before relaxing)
+ .debug_line_str
+                0x000003f6       0x12 ../lib/libstatique.a(Wheels.o)
+                                 0xfc (size before relaxing)
+ .debug_line_str
+                0x00000408       0x3a ../lib/libstatique.a(CharcterDisplay.o)
+                                0x15f (size before relaxing)
+ .debug_line_str
+                0x00000442       0x45 ../lib/libstatique.a(DisplayManager.o)
+                                0x208 (size before relaxing)
+ .debug_line_str
+                0x00000487       0x20 ../lib/libstatique.a(GlobalDisplay.o)
+                                0x176 (size before relaxing)
+ .debug_line_str
+                0x000004a7       0x18 ../lib/libstatique.a(MakerLine.o)
+                                0x10e (size before relaxing)
+ .debug_line_str
+                0x000004bf       0x79 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodhi4.o)
+ .debug_line_str
+                0x00000538       0x79 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .debug_line_str
+                0x00000538       0x79 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_divmodsi4.o)
+ .debug_line_str
+                0x00000538       0x79 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_negsi2.o)
+ .debug_line_str
+                0x00000538       0x79 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_exit.o)
+ .debug_line_str
+                0x00000538       0x79 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_tablejump2.o)
+ .debug_line_str
+                0x00000538       0x79 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_copy_data.o)
+ .debug_line_str
+                0x00000538       0x79 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_line_str
+                0x00000538       0x79 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_ctors.o)
+ .debug_line_str
+                0x00000538       0x79 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_dtors.o)
+ .debug_line_str
+                0x00000538       0x79 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_muluhisi3.o)
+ .debug_line_str
+                0x00000538       0x79 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_udivmodsi4.o)
+ .debug_line_str
+                0x00000538       0x79 /opt/homebrew/Cellar/avr-gcc@11/11.3.0_1/lib/avr-gcc/11/gcc/avr/11.3.0/avr5/libgcc.a(_umulhisi3.o)
+
+.debug_loclists
+                0x00000000     0x33f4
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x7c9 Robot2.o
+ .debug_loclists
+                0x000007c9       0x73 ../lib/libstatique.a(Button.o)
+ .debug_loclists
+                0x0000083c      0x14e ../lib/libstatique.a(CommunicationRS232.o)
+ .debug_loclists
+                0x0000098a      0x352 ../lib/libstatique.a(IrTransmitter.o)
+ .debug_loclists
+                0x00000cdc      0x130 ../lib/libstatique.a(Led.o)
+ .debug_loclists
+                0x00000e0c      0x9cc ../lib/libstatique.a(Navigation.o)
+ .debug_loclists
+                0x000017d8       0x6a ../lib/libstatique.a(Piezo.o)
+ .debug_loclists
+                0x00001842      0x1a2 ../lib/libstatique.a(Segment.o)
+ .debug_loclists
+                0x000019e4       0xc7 ../lib/libstatique.a(Timer1.o)
+ .debug_loclists
+                0x00001aab      0x1fd ../lib/libstatique.a(Wheels.o)
+ .debug_loclists
+                0x00001ca8      0x595 ../lib/libstatique.a(CharcterDisplay.o)
+ .debug_loclists
+                0x0000223d      0xa59 ../lib/libstatique.a(DisplayManager.o)
+ .debug_loclists
+                0x00002c96      0x532 ../lib/libstatique.a(GlobalDisplay.o)
+ .debug_loclists
+                0x000031c8      0x22c ../lib/libstatique.a(MakerLine.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x214
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x25 main.o
+ .debug_rnglists
+                0x00000025       0x22 Robot2.o
+ .debug_rnglists
+                0x00000047       0x20 ../lib/libstatique.a(CommunicationRS232.o)
+ .debug_rnglists
+                0x00000067       0x2d ../lib/libstatique.a(IrTransmitter.o)
+ .debug_rnglists
+                0x00000094       0x2d ../lib/libstatique.a(Navigation.o)
+ .debug_rnglists
+                0x000000c1       0x44 ../lib/libstatique.a(Segment.o)
+ .debug_rnglists
+                0x00000105       0x34 ../lib/libstatique.a(CharcterDisplay.o)
+ .debug_rnglists
+                0x00000139       0xc4 ../lib/libstatique.a(DisplayManager.o)
+ .debug_rnglists
+                0x000001fd       0x17 ../lib/libstatique.a(GlobalDisplay.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+OUTPUT(projet.elf elf32-avr)
+LOAD linker stubs
